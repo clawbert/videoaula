@@ -25,6 +25,8 @@
 		</ul>
 	</div>
 
-	<div id="janelas"></div>
+	<div id="janelas">
+		<div class="janela" id="jan_"></div>
+	</div>
 </body>
 </html>

@@ -27,7 +27,7 @@ div#contatos ul li a{
 	text-decoration: none;
 	display: block;
 	padding: 3px;
-	font: 14px tahoma, arial, helvetica;
+	font: 15px tahoma, arial, helvetica;
 	color: #333;
 }
 div#contatos ul li a:hover{background: #ccc;}
@@ -36,4 +36,5 @@ div#janelas{
 	position: fixed;
 	bottom: 0;
 	right: 0;
+	width: 85%;
 }
