@@ -26,7 +26,16 @@
 	</div>
 
 	<div id="janelas">
-		<div class="janela" id="jan_"></div>
+		<div class="janela" id="jan_">
+			<div class="topo" id="">
+				<span>Clawbert Barbosa</span>
+				<a href="javascript:void(0);" id="fechar"></a>
+			</div>
+
+			<div id="corpo">
+				
+			</div>
+		</div>
 	</div>
 </body>
 </html>
