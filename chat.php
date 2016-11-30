@@ -18,7 +18,6 @@
 <body>
 	<div id="contatos">
 		<ul>
-			
 			<li><a href="javascript:void(0);" nome="<?php echo $usuario->nome;?>" id="" class="comecar">Clawbert Barbosa</a></li>
 		</ul>
 	</div>
