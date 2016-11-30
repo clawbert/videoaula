@@ -18,9 +18,7 @@
 <body>
 	<div id="contatos">
 		<ul>
-			<?php 
-				$selecionar_usuarios = BD::conn()->prepare("SELECT * FROM 'usuarios' WHERE id ");
-			?>
+			
 			<li><a href="javascript:void(0);" nome="<?php echo $usuario->nome;?>" id="" class="comecar">Clawbert Barbosa</a></li>
 		</ul>
 	</div>
