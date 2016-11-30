@@ -18,24 +18,17 @@
 <body>
 	<div id="contatos">
 		<ul>
-			<li><a href="javascript:void(0);" nome="" id="" class="comecar">Clawbert Barbosa</a></li>
-			<li><a href="javascript:void(0);" nome="" id="" class="comecar">Clawbert Barbosa</a></li>
-			<li><a href="javascript:void(0);" nome="" id="" class="comecar">Clawbert Barbosa</a></li>
-			<li><a href="javascript:void(0);" nome="" id="" class="comecar">Clawbert Barbosa</a></li>
+			<?php 
+				$selecionar_usuarios = BD::conn()->prepare("SELECT * FROM 'usuarios' WHERE id ");
+			?>
+			<li><a href="javascript:void(0);" nome="<?php echo $usuario->nome;?>" id="" class="comecar">Clawbert Barbosa</a></li>
 		</ul>
 	</div>
 
 	<div id="janelas">
-		<div class="janela" id="jan_">
-			<div class="topo" id="">
-				<span>Clawbert Barbosa</span>
-				<a href="javascript:void(0);" id="fechar"></a>
-			</div>
 
-			<div id="corpo">
-				
-			</div>
-		</div>
+		
+
 	</div>
 </body>
 </html>

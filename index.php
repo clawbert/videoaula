@@ -36,7 +36,6 @@
 			} else {
 				$fetch = $pegar_user->fetchObject();
 				$_SESSION['id_user'] = $fetch->id;
-				echo "<script>alert('Login efetuado');location.href='chat.php'</script>";
 			}
 		}
 	}
